@@ -1,0 +1,72 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar-logo {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  height: 20%;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+.navbar-items {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 15%;
+  margin-top: 0%;
+  align-items: center;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-top: 1.5%;
+}
+.logo-title {
+  font-family: Caveat;
+  font-size: xx-large;
+  height: auto;
+  margin-top: 0px;
+}
+.navbar-item {
+  font-family: Poppins;
+}
+.login {
+  font-family: Poppins;
+  height: 50%;
+  width: 30%;
+  border-style: none;
+  background-color: white;
+}
+.signup {
+  font-family: Poppins;
+  background: linear-gradient(
+    to right,
+    rgb(0, 82, 212),
+    rgb(67, 100, 247),
+    rgb(111, 177, 252)
+  );
+  height: 50%;
+  width: 40%;
+  border-style: none;
+  border-radius: 0.5rem;
+  color: white;
+}
+.signup:active {
+  margin-top: 2px;
+  margin-left: 1px;
+  box-shadow: none;
+}
+.login:hover {
+  border: 1px solid;
+  border-radius: 0.5rem;
+}
