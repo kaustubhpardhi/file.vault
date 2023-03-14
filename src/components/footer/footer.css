@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.footer-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Indie Flower;
+  gap: 0rem;
+  font-size: larger;
+}

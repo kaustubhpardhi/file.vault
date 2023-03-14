@@ -1,0 +1,68 @@
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  gap: 2rem;
+}
+.hero-main {
+  display: flex;
+  flex-direction: column;
+  font-family: Poppins;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  line-height: 3.5rem;
+}
+.title-p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+.hero-left {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.lock-img {
+  width: 100%;
+}
+.hero-right {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.file-img {
+  width: 100%;
+}
+.get-started {
+  width: 30%;
+}
+.get-started-button {
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 600;
+  background: linear-gradient(
+    to right,
+    rgb(0, 82, 212),
+    rgb(67, 100, 247),
+    rgb(111, 177, 252)
+  );
+  height: 2.5rem;
+  width: 100%;
+  border-style: none;
+  border-radius: 0.5rem;
+  color: white;
+}
