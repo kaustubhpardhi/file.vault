@@ -1,6 +1,12 @@
 import "./navbar.css";
 import logo from "./logo.png";
+import { useNavigate } from "react-router-dom";
 function Navbar() {
+  const navigate = useNavigate();
+  const loginHandler = ()=>{
+    navigate("/login");
+
+  }
   return (
     <div className="navbar">
       <div className="navbar-logo">
@@ -13,7 +19,7 @@ function Navbar() {
         <p className="navbar-item">Pricing</p>
       </div>
       <div className="navbar-buttons">
-        <button className="login">Login</button>
+        <button className="login" onClick={loginHandler}>Login</button>
         <button className="signup">Signup</button>
       </div>
     </div>

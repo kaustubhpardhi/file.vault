@@ -1,0 +1,28 @@
+.login-tab {
+  background: linear-gradient(to right, #a7bfe8, #6190e8);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-card {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  background-color: aqua;
+  width: 50%;
+}
+.login-1 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5px 0px 0px 5px;
+  padding: 10px;
+  width: 60%;
+}
+.login-2 {
+  background-color: lightblue;
+  border-radius: 0px 5px 5px 0px;
+  width: 40%;
+}
